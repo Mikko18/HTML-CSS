@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: rgb(241, 233, 233);
-    background-image: url(kuvat/redback.jpg);
+    background-image: url(Kuvat/redback.jpg);
     background-size: cover;
     margin: 0;
 }
@@ -19,7 +19,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: rgb(241, 233, 233)
+  color: rgb(241, 233, 233);
 }
 
 /* when clicking the link */
@@ -37,4 +37,9 @@ a:active {
 
 .top {
     text-align: center;
+}
+
+.date {
+    font-size: 18px;
+    margin-top: 5px;
 }
