@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(241, 233, 233);
+    background-image: url(kuvat/redback.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(241, 233, 233);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(16, 1, 1);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(241, 233, 233)
+}
+
+/* when clicking the link */
+a:active {
+  color: rgb(225, 240, 9);
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.top {
+    text-align: center;
+}
